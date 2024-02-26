@@ -207,6 +207,19 @@ summary{
   color: rgb(126, 73, 4);
 }
 
+aside {
+  width: 35%;
+  padding-left: 15px;
+  margin-left: 15px;
+  padding-top: 15px;
+  float: right;
+  font-style: italic;
+  background-color: #f0deca;
+  font-size: 14px;
+  word-wrap: break-word;
+  margin-bottom: 10px;
+}
+
   @media screen and (max-width: 720px) {
     .box{
         flex-direction: column;
@@ -223,6 +236,9 @@ summary{
   }
   table{
     font-size: 14px;
+  }
+  aside {
+    width: 100%;
   }
 
   } 
